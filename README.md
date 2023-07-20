@@ -1,4 +1,4 @@
-# Loan Payment Prediction
+# Loan Payment Status Prediction
 
 ## Project Overview
 This project aims to build a machine learning model to accurately predict the future status of a loan payment. The goal is to proactively manage risk, optimize intervention strategies throughout the loan cycle, and minimize potential financial losses.
