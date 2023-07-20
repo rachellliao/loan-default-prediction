@@ -1,7 +1,7 @@
-# Loan Status Prediction
+# Loan Payment Prediction
 
 ## Project Overview
-This project aims to build a machine learning model to accurately predict the future status of a loan. The goal is to proactively manage risk, optimize intervention strategies throughout the loan cycle, and minimize potential financial losses.
+This project aims to build a machine learning model to accurately predict the future status of a loan payment. The goal is to proactively manage risk, optimize intervention strategies throughout the loan cycle, and minimize potential financial losses.
 
 ## Dataset
 The dataset used in this project is a historical dataset of loans issued by All Lending Club, including details about the loan amount, term, interest rate, grade, and other relevant information.
