@@ -36,14 +36,8 @@ However, there are several areas for potential improvement:
 
 2. **Incorporating More Features:** Additional features not included in the current dataset could potentially enhance the predictive power of the model.
 
-3. **Using Different Modeling Techniques:** While the Random Forest model performed best in this project, other techniques such as gradient boosting, neural networks, or ensemble methods could potentially yield better results.
+3. **Using Different Modeling Techniques:** While the Random Forest model performed best in this project, other techniques such as neural networks, or ensemble methods could potentially yield better results.
 
 4. **Model Interpretability:** Depending on the needs of the end user, future work could focus on models that balance predictive power with interpretability.
 
 This project demonstrates the practical application of data science techniques in predicting loan defaults and provides valuable insights for risk assessment in lending institutions. Future work will aim to further improve the model's performance and interpretability.
-
-
-  * **Heatmap:** We create a heatmap to visualize the correlation matrix of the dataset. The heatmap helps us understand the linear relationships between different variables in the dataset. We also create a heatmap for the top 10 variables that are most correlated with 'loan_status'.
-
-## Future Work
-The next steps of this project will involve feature engineering, model selection, model training, and evaluation of the model's performance.
