@@ -1,8 +1,8 @@
-# Loan Default Prediction Project
+# Loan Payment Status Prediction Project
 
 ## Project Overview
 
-This project aims to build a machine learning model to accurately predict loan default status based on various features related to the loan and the borrower. The ability to accurately predict loan defaults can add significant business value to lending institutions by enhancing their risk assessment capabilities, improving decision-making processes, and potentially reducing financial losses.
+This project aims to build a machine learning model to accurately predict loan payment status based on various features related to the loan and the borrower. The ability to accurately predict loan payment status can add significant business value to lending institutions by enhancing their risk assessment capabilities, improving decision-making processes, and potentially reducing financial losses.
 
 ## Dataset
 
@@ -28,7 +28,7 @@ Several machine learning models were tested, including Logistic Regression, Supp
 
 ## Findings and Conclusions
 
-The best performing model achieved an accuracy of approximately 80%, correctly identifying 93% of the loans that were actually paid off. This demonstrates the model's value in providing insights for risk assessment. 
+The best-performing model achieved an accuracy of approximately 80%, correctly identifying 93% of the loans that were actually paid off. This demonstrates the model's value in providing insights for risk assessment. 
 
 However, there are several areas for potential improvement:
 
