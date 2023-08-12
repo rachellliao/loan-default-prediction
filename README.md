@@ -33,7 +33,7 @@ EDA helped understand feature distributions and relationships with loan status, 
 ### 🧠 [Feature Engineering](https://github.com/rachellliao/loan-default-prediction/blob/2e01b69b68ba27228ba69b5b7e328b89e5373cc0/3.%20feature_engineering.ipynb)
 We transformed existing data through one-hot encoding, converting categorical variables into machine-learning-friendly formats.
 
-### 📊 [Modeling]
+### 📊 [Modeling](https://github.com/rachellliao/loan-default-prediction/blob/ed9ca37c0e91f0eb600b2ede8dc56de457491cf8/4.%20modeling.ipynb)
 We tested and evaluated various models, including:
 - Logistic Regression
 - Support Vector Machine
