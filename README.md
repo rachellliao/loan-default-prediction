@@ -1,6 +1,6 @@
 # 📈 Loan Default Prediction Project: Paycast
 
-<img align="center" src="https://github.com/rachellliao/loan-default-prediction/blob/b015e21baf01308fe1c6a82746266a536e972cc9/Paycast%20Logo.png" title="Paycast" alt="Paycast" width="400" height="400"> 
+<img align="center" src="https://github.com/rachellliao/loan-default-prediction/blob/98162956ba8f0143e2b5a6c7752c3a14b0149be9/Paycast%20Logo.png" title="Paycast" alt="Paycast" width="400" height="400"> 
 
 ## 🎯 Project Overview
 
