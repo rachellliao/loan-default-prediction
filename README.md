@@ -3,7 +3,7 @@
 # 📈 Loan Default Prediction Project
 ## Paycast
 
-<img align="center" src="https://github.com/rachellliao/loan-default-prediction/blob/98162956ba8f0143e2b5a6c7752c3a14b0149be9/Paycast%20Logo.png" title="Paycast" alt="Paycast" width="544.86" height="400"> 
+<img align="center" src="https://github.com/rachellliao/loan-default-prediction/blob/98162956ba8f0143e2b5a6c7752c3a14b0149be9/Paycast%20Logo.png" title="Paycast" alt="Paycast" width="400" height="400"> 
 
 </div>
 
@@ -24,16 +24,16 @@ The dataset comes from **LendingClub**, a prominent peer-to-peer lending platfor
 
 ## 🚀 Project Workflow
 
-### ➡️ Data Cleaning
+### 🧹 [Data Cleaning](https://github.com/rachellliao/loan-default-prediction/blob/2e01b69b68ba27228ba69b5b7e328b89e5373cc0/1.%20data_cleaning.ipynb)
 We started by tidying up the dataset: removing irrelevant features, handling missing data, and eliminating any features not available at loan issuance time.
 
-### 🕵️‍♂️ Exploratory Data Analysis (EDA)
+### 🕵️‍♂️ [Exploratory Data Analysis (EDA)](https://github.com/rachellliao/loan-default-prediction/blob/2e01b69b68ba27228ba69b5b7e328b89e5373cc0/2.%20EDA.ipynb)
 EDA helped understand feature distributions and relationships with loan status, thus informing model choice and guiding feature engineering.
 
-### 🧠 Feature Engineering
+### 🧠 [Feature Engineering](https://github.com/rachellliao/loan-default-prediction/blob/2e01b69b68ba27228ba69b5b7e328b89e5373cc0/3.%20feature_engineering.ipynb)
 We transformed existing data through one-hot encoding, converting categorical variables into machine-learning-friendly formats.
 
-### 🏭 Modeling
+### 📊 [Modeling]
 We tested and evaluated various models, including:
 - Logistic Regression
 - Support Vector Machine
