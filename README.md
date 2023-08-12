@@ -1,24 +1,49 @@
-# Loan Payment Status Prediction
+# 📈 Loan Payment Status Prediction Project
 
-## Project Overview
-This project aims to build a machine learning model to accurately predict the future status of a loan payment. The goal is to proactively manage risk, optimize intervention strategies throughout the loan cycle, and minimize potential financial losses.
+## 🎯 Project Overview
 
-## Dataset
-The dataset used in this project is a historical dataset of loans issued by All Lending Club, including details about the loan amount, term, interest rate, grade, and other relevant information.
+This project leverages machine learning to predict loan payment statuses accurately. By doing so, it offers lending institutions enhanced risk assessment, decision-making processes, and the potential to minimize financial losses.
 
-## Analysis Steps
-1. **Data Loading:** The dataset was loaded into a Python notebook for analysis.
-2. **Statistical Summary:** A statistical summary of the dataset was performed using `df.describe()`.
-3. **Data Cleaning:** Checked for missing values and duplicates in the dataset. A copy of the original dataframe was created, the `member_id` column was dropped, and other rows with missing values were removed.
-4. **Data Distribution:** Checked the distribution of the `loan_amnt` column.
-5. **Correlation Analysis:**
-   * Initialize a label encoder and convert 'loan_status' to numerical form.
-   * Compute the correlation of 'loan_status' with other variables.
-   * Sort the correlations and display the sorted correlations.
-6. **Data Visualization:**
-  * **Pairplot:** We create a pairplot for a subset of columns in the dataset to visualize the pairwise relationships between them. The subset of columns includes 'loan_amnt', 'funded_amnt', 'int_rate', and 'installment'.
+## 📊 Dataset
 
-  * **Heatmap:** We create a heatmap to visualize the correlation matrix of the dataset. The heatmap helps us understand the linear relationships between different variables in the dataset. We also create a heatmap for the top 10 variables that are most correlated with 'loan_status'.
+The dataset comes from **LendingClub**, a prominent peer-to-peer lending platform in the United States. Each row represents a unique loan, and each column a different loan attribute, including:
+- Loan amount
+- Term
+- Interest rate
+- Grade, sub-grade
+- Employment title, employment length
+- Home ownership
+- Annual income
 
-## Future Work
-The next steps of this project will involve feature engineering, model selection, model training, and evaluation of the model's performance.
+## 🚀 Project Workflow
+
+### ➡️ Data Cleaning
+We started by tidying up the dataset: removing irrelevant features, handling missing data, and eliminating any features not available at loan issuance time.
+
+### 🕵️‍♂️ Exploratory Data Analysis (EDA)
+EDA helped understand feature distributions and relationships with loan status, thus informing model choice and guiding feature engineering.
+
+### 🧠 Feature Engineering
+We transformed existing data through one-hot encoding, converting categorical variables into machine-learning-friendly formats.
+
+### 🏭 Modeling
+We tested and evaluated various models, including:
+- Logistic Regression
+- Support Vector Machine
+- Decision Tree
+- Random Forest
+- XGBoost
+
+The **Random Forest model** was chosen for its superior performance.
+
+## 📝 Findings and Conclusions
+The best-performing model boasts an accuracy of ~80% and correctly identifies 93% of loans paid off, enhancing risk assessment.
+
+Potential improvements include:
+1. **Addressing Class Imbalance:** The dataset had many more loans that were paid off than defaulted. Techniques such as random oversampling could be used to address this imbalance.
+2. **Incorporating More Features:** Additional features not included in the current dataset could potentially enhance the predictive power of the model.
+3. **Trying Different Models:** While the Random Forest model performed best in this project, other techniques such as neural networks, or ensemble methods could potentially yield better results.
+4. **Balancing Power with Interpretability:** Depending on the needs of the end user, future work could focus on models that balance predictive power with interpretability.
+
+
+This project demonstrates the practical application of data science techniques in predicting loan defaults and provides valuable insights for risk assessment in lending institutions. Future work will aim to further improve the model's performance and interpretability.
