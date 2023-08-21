@@ -1,7 +1,6 @@
 <div align="center">
 
-# 📈 Loan Default Prediction Project
-## Paycast
+# 📈 Loan Default Prediction Project: Paycast
 
 <img align="center" src="https://github.com/rachellliao/loan-default-prediction/blob/98162956ba8f0143e2b5a6c7752c3a14b0149be9/Paycast%20Logo.png" title="Paycast" alt="Paycast" width="400" height="400"> 
 
