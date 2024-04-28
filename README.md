@@ -12,7 +12,7 @@ This project leverages machine learning to predict loan payment statuses accurat
 
 ## 📊 Dataset
 
-The dataset comes from **LendingClub**, a prominent peer-to-peer lending platform in the United States. Each row represents a unique loan, and each column a different loan attribute, including:
+The dataset comes from **LendingClub**, a prominent peer-to-peer lending platform in the United States. Each row represents a unique loan, and each column represents a different loan attribute, including:
 - Loan amount
 - Term
 - Interest rate
